@@ -34,15 +34,13 @@ int main() {
 
             scores[name] = score;
             tree.RBInsert(tree.createNode(score));
-        }
-
-        else if (operation == "UPDATE") {
+        } else if (operation == "UPDATE") {
             string name;
             int delta;
             cin >> name >> delta;
 
             int oldScore = scores[name];
-            RBNode* node = tree.search(tree.root, oldScore);
+            RBNode *node = tree.search(tree.root, oldScore);
             if (!tree.isNil(node)) {
                 tree.del(node);
             }
@@ -50,29 +48,25 @@ int main() {
             int newScore = oldScore + delta;
             scores[name] = newScore;
             tree.RBInsert(tree.createNode(newScore));
-        }
-
-        else if (operation == "REMOVE") {
+        } else if (operation == "REMOVE") {
             string name;
             cin >> name;
 
             int score = scores[name];
 
-            RBNode* node = tree.search(tree.root, score);
+            RBNode *node = tree.search(tree.root, score);
             if (!tree.isNil(node)) {
                 tree.del(node);
             }
             scores.erase(name);
-        }
-
-        else if (operation == "TOP") {
+        } else if (operation == "TOP") {
             int top_players;
             cin >> top_players;
 
-            RBNode* current = tree.maximum(tree.root);
+            RBNode *current = tree.maximum(tree.root);
 
             for (int i = 0; i < top_players && !tree.isNil(current); i++) {
-                for (auto& pair : scores) {
+                for (auto &pair: scores) {
                     if (pair.second == current->key) {
                         cout << pair.first << " " << current->key << endl;
                         break;
