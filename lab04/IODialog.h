@@ -7,16 +7,17 @@
 using namespace std;
 
 namespace IODialog {
-
     void showTreeOperation() {
         cout << "1. Insert nodes" << endl
-             << "2. Delete node" << endl
-             << "3. Search for a value" << endl
-             << "4. Show tree" << endl
-             << "5. Show minimum value" << endl
-             << "6. Show maximum value" << endl
-             << "7. Exit" << endl
-             << "Enter your choice (1-7): ";
+                << "2. Delete node" << endl
+                << "3. Search for a value" << endl
+                << "4. Show tree" << endl
+                << "5. Show minimum value" << endl
+                << "6. Show maximum value" << endl
+                << "7. Show predecessor of a node" << endl
+                << "8. Show successor of a node" << endl
+                << "9. Exit" << endl
+                << "Enter your choice (1-9): ";
     }
 
     int getTreeOperation() {
@@ -27,7 +28,7 @@ namespace IODialog {
                 cout << "Unknown option. Try again." << endl;
                 cin.clear();
                 cin.ignore(10000, '\n');
-            } else if (option < 1 || option > 7) {
+            } else if (option < 1 || option > 9) {
                 cout << "Unknown option. Try again." << endl;
             } else {
                 cout << "Proceed with selection " << option << " .." << endl;
@@ -38,7 +39,7 @@ namespace IODialog {
         return option;
     }
 
-    void getNodeKeys(list<int>& nodeKeys) {
+    void getNodeKeys(list<int> &nodeKeys) {
         cout << "Type in the keys to insert: " << flush;
         int key;
         string line;
