@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -45,28 +47,35 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "lab01::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lab01-Debug-d241d1bee5f47d25608a.json",
+					"jsonFile" : "target-lab01-Debug-d5cf761e20c2766b9504.json",
 					"name" : "lab01",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "lab02::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lab02-Debug-38525ee563ba820af934.json",
+					"jsonFile" : "target-lab02-Debug-049cab7234a0f2d9330e.json",
 					"name" : "lab02",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "lab04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab04-Debug-9feb0c5e6b94cdd91497.json",
+					"name" : "lab04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "problem1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-problem1-Debug-803915ae053b967ef800.json",
+					"jsonFile" : "target-problem1-Debug-fbe1fe253ec68ef548d5.json",
 					"name" : "problem1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "problem2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-problem2-Debug-c85239787921f0075edb.json",
+					"jsonFile" : "target-problem2-Debug-dfb97d6eeda58ae6337b.json",
 					"name" : "problem2",
 					"projectIndex" : 0
 				}

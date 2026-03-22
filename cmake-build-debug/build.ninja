@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_lab01: phony || .
 build CMakeFiles/lab01.dir/lab01/main.cpp.obj: CXX_COMPILER__lab01_unscanned_Debug C$:/Users/USER/Documents/GitHub/ADS-2026/lab01/main.cpp || cmake_object_order_depends_target_lab01
   DEP_FILE = CMakeFiles\lab01.dir\lab01\main.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/USER/Documents/GitHub/ADS-2026/lab01 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab02 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab03
+  INCLUDES = -IC:/Users/USER/Documents/GitHub/ADS-2026/lab01 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab02 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab03 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab04
   OBJECT_DIR = CMakeFiles\lab01.dir
   OBJECT_FILE_DIR = CMakeFiles\lab01.dir\lab01
 
@@ -86,7 +86,7 @@ build cmake_object_order_depends_target_lab02: phony || .
 build CMakeFiles/lab02.dir/lab02/Main.cpp.obj: CXX_COMPILER__lab02_unscanned_Debug C$:/Users/USER/Documents/GitHub/ADS-2026/lab02/Main.cpp || cmake_object_order_depends_target_lab02
   DEP_FILE = CMakeFiles\lab02.dir\lab02\Main.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/USER/Documents/GitHub/ADS-2026/lab01 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab02 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab03
+  INCLUDES = -IC:/Users/USER/Documents/GitHub/ADS-2026/lab01 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab02 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab03 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab04
   OBJECT_DIR = CMakeFiles\lab02.dir
   OBJECT_FILE_DIR = CMakeFiles\lab02.dir\lab02
 
@@ -120,7 +120,7 @@ build cmake_object_order_depends_target_problem1: phony || .
 build CMakeFiles/problem1.dir/lab03/problem1.cpp.obj: CXX_COMPILER__problem1_unscanned_Debug C$:/Users/USER/Documents/GitHub/ADS-2026/lab03/problem1.cpp || cmake_object_order_depends_target_problem1
   DEP_FILE = CMakeFiles\problem1.dir\lab03\problem1.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/USER/Documents/GitHub/ADS-2026/lab01 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab02 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab03
+  INCLUDES = -IC:/Users/USER/Documents/GitHub/ADS-2026/lab01 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab02 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab03 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab04
   OBJECT_DIR = CMakeFiles\problem1.dir
   OBJECT_FILE_DIR = CMakeFiles\problem1.dir\lab03
 
@@ -154,7 +154,7 @@ build cmake_object_order_depends_target_problem2: phony || .
 build CMakeFiles/problem2.dir/lab03/problem2.cpp.obj: CXX_COMPILER__problem2_unscanned_Debug C$:/Users/USER/Documents/GitHub/ADS-2026/lab03/problem2.cpp || cmake_object_order_depends_target_problem2
   DEP_FILE = CMakeFiles\problem2.dir\lab03\problem2.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/USER/Documents/GitHub/ADS-2026/lab01 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab02 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab03
+  INCLUDES = -IC:/Users/USER/Documents/GitHub/ADS-2026/lab01 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab02 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab03 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab04
   OBJECT_DIR = CMakeFiles\problem2.dir
   OBJECT_FILE_DIR = CMakeFiles\problem2.dir\lab03
 
@@ -175,6 +175,40 @@ build problem2.exe: CXX_EXECUTABLE_LINKER__problem2_Debug CMakeFiles/problem2.di
   TARGET_FILE = problem2.exe
   TARGET_IMPLIB = libproblem2.dll.a
   TARGET_PDB = problem2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab04
+
+
+#############################################
+# Order-only phony target for lab04
+
+build cmake_object_order_depends_target_lab04: phony || .
+
+build CMakeFiles/lab04.dir/lab04/main.cpp.obj: CXX_COMPILER__lab04_unscanned_Debug C$:/Users/USER/Documents/GitHub/ADS-2026/lab04/main.cpp || cmake_object_order_depends_target_lab04
+  DEP_FILE = CMakeFiles\lab04.dir\lab04\main.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/USER/Documents/GitHub/ADS-2026/lab01 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab02 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab03 -IC:/Users/USER/Documents/GitHub/ADS-2026/lab04
+  OBJECT_DIR = CMakeFiles\lab04.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab04.dir\lab04
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab04
+
+
+#############################################
+# Link the executable lab04.exe
+
+build lab04.exe: CXX_EXECUTABLE_LINKER__lab04_Debug CMakeFiles/lab04.dir/lab04/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab04.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab04.exe
+  TARGET_IMPLIB = liblab04.dll.a
+  TARGET_PDB = lab04.exe.dbg
 
 
 #############################################
@@ -206,6 +240,8 @@ build lab01: phony lab01.exe
 
 build lab02: phony lab02.exe
 
+build lab04: phony lab04.exe
+
 build problem1: phony problem1.exe
 
 build problem2: phony problem2.exe
@@ -218,7 +254,7 @@ build problem2: phony problem2.exe
 #############################################
 # Folder: C:/Users/USER/Documents/GitHub/ADS-2026/cmake-build-debug
 
-build all: phony lab01.exe lab02.exe problem1.exe problem2.exe
+build all: phony lab01.exe lab02.exe problem1.exe problem2.exe lab04.exe
 
 # =============================================================================
 # Built-in targets

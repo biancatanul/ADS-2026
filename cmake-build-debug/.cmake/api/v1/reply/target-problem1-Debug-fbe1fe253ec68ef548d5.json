@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 14,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
@@ -47,6 +47,12 @@
 				"command" : 1,
 				"file" : 0,
 				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 9,
 				"parent" : 0
 			}
 		]
@@ -73,6 +79,10 @@
 				{
 					"backtrace" : 4,
 					"path" : "C:/Users/USER/Documents/GitHub/ADS-2026/lab03"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/USER/Documents/GitHub/ADS-2026/lab04"
 				}
 			],
 			"language" : "CXX",
