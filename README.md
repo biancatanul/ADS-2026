@@ -10,6 +10,7 @@ Lab assignments for the Advanced Data Structures course, implemented in C++ usin
 | 2 | Red-Black Tree | self-balancing, rotations, insertion/deletion, search, traversal, black height, max red/black key, tree depth, min/max, successor/predecessor |
 | 3 | Red-Black Tree Applications | dynamic leaderboard, dynamic median of a data stream |
 | 4 | B-Tree implementation | insertion, deletion, search, min/max |
+| 5 | Binary Heap & Sorting | heapify, build heap, heap sort, extract max, insert, min/max, priority queue |
 
 ## Tech
 C++, CMake, CLion
