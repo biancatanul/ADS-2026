@@ -1,8 +1,0 @@
-C:/Users/User/CLionProjects/ADS-2026/cmake-build-debug/CMakeFiles/lab01.dir
-C:/Users/User/CLionProjects/ADS-2026/cmake-build-debug/CMakeFiles/lab02.dir
-C:/Users/User/CLionProjects/ADS-2026/cmake-build-debug/CMakeFiles/problem1.dir
-C:/Users/User/CLionProjects/ADS-2026/cmake-build-debug/CMakeFiles/problem2.dir
-C:/Users/User/CLionProjects/ADS-2026/cmake-build-debug/CMakeFiles/lab04.dir
-C:/Users/User/CLionProjects/ADS-2026/cmake-build-debug/CMakeFiles/lab05.dir
-C:/Users/User/CLionProjects/ADS-2026/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/User/CLionProjects/ADS-2026/cmake-build-debug/CMakeFiles/rebuild_cache.dir
