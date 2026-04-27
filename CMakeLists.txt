@@ -9,7 +9,8 @@ include_directories(lab03)
 include_directories(lab04)
 include_directories(lab05)
 
-add_executable(lab01 lab01/main.cpp)
+add_executable(lab01 lab01/main.cpp
+        lab05_2/main.cpp)
 
 add_executable(lab02 lab02/Main.cpp)
 
