@@ -12,6 +12,7 @@ Lab assignments for the Advanced Data Structures course, implemented in C++ usin
 | 4 | B-Tree implementation | insertion, deletion, search, min/max |
 | 5 | Binary Heap & Sorting | heapify, build heap, heap sort, extract max, insert, min/max, priority queue |
 | 6 | Binomial Heap | insert, find min, extract min, decrease key, delete, union |
+| 7 | Disjoint sets problems | MakeSet, FindSet, Union, union by rank, path compression, connected components, cycle detection, friend groups |
 
 ## Tech
 C++, CMake, CLion
