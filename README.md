@@ -11,6 +11,7 @@ Lab assignments for the Advanced Data Structures course, implemented in C++ usin
 | 3 | Red-Black Tree Applications | dynamic leaderboard, dynamic median of a data stream |
 | 4 | B-Tree implementation | insertion, deletion, search, min/max |
 | 5 | Binary Heap & Sorting | heapify, build heap, heap sort, extract max, insert, min/max, priority queue |
+| 6 | Binomial Heap | insert, find min, extract min, decrease key, delete, union |
 
 ## Tech
 C++, CMake, CLion
